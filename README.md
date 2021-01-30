@@ -12,14 +12,14 @@ py-motmetrics (pip install motmetrics)
 cython-bbox (pip install cython_bbox)
 
 # Pretrained model and baseline models:
-Darknet-53 ImageNet pretrained model: [https://pjreddie.com/media/files/darknet53.conv.74](DarkNet Official)
+Darknet-53 ImageNet pretrained model: [DarkNet Official](https://pjreddie.com/media/files/darknet53.conv.74)
 
 Trained models with different input resolutions:
 
 Model	MOTA	IDF1	IDS	FP	FN	FPS	Link
-JDE-1088x608	74.8	67.3	1189	5558	21505	22.2	[https://drive.google.com/open?id=1nlnuYfGNuHWZztQHXwVZSL_FvfE551pA](Google)
-JDE-864x480	70.8	65.8	1279	5653	25806	30.3	[https://drive.google.com/open?id=1UKgkYrsV-59kYaHgWeJ70p5Mij3QWuFr](Google)
-JDE-576x320	63.7	63.3	1307	6657	32794	37.9	[https://drive.google.com/file/d/1sca65sHMnxY7YJ89FJ6Dg3S3yAjbLdMz/view?usp=sharing](Google)
+JDE-1088x608	74.8	67.3	1189	5558	21505	22.2	[Google](https://drive.google.com/open?id=1nlnuYfGNuHWZztQHXwVZSL_FvfE551pA)
+JDE-864x480	70.8	65.8	1279	5653	25806	30.3	[Google](https://drive.google.com/open?id=1UKgkYrsV-59kYaHgWeJ70p5Mij3QWuFr)
+JDE-576x320	63.7	63.3	1307	6657	32794	37.9	[Google](https://drive.google.com/file/d/1sca65sHMnxY7YJ89FJ6Dg3S3yAjbLdMz/view?usp=sharing)
 
 Used Model- JDE-1088x608
 
@@ -28,4 +28,4 @@ python demo.py --input-video path/to/your/input/video --weights path/to/model/we
                --output-format video --output-root path/to/output/root
 
 # Acknowledgement:
-A large portion of code is borrowed from [https://github.com/Zhongdao/Towards-Realtime-MOT](Zhongdao/Towards-Realtime-MOT)
+A large portion of code is borrowed from [Zhongdao/Towards-Realtime-MOT](https://github.com/Zhongdao/Towards-Realtime-MOT)
