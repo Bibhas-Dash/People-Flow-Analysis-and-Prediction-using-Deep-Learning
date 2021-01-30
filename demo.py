@@ -1,4 +1,4 @@
-"""Demo file for running the JDE tracker on custom video sequences for pedestrian tracking.
+"""Demo file for running the JDE tracker on custom video sequences for pedestrian tracking and prediction.
 
 This file is the entry point to running the tracker on custom video sequences. It loads images from the provided video sequence, uses the JDE tracker for inference and outputs the video with bounding boxes indicating pedestrians. The bounding boxes also have associated ids (shown in different colours) to keep track of the movement of each individual. 
 
