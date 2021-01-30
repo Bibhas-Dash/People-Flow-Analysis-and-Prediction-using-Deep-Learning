@@ -14,9 +14,9 @@ People detection and flow analysis of crowd from visual data of congregation sce
 # Pretrained model and baseline models:
 Darknet-53 ImageNet pretrained model: [DarkNet Official](https://pjreddie.com/media/files/darknet53.conv.74)
 
-## Trained models with different input resolutions:
+## Trained models with different input resolutions
 
-## Model	MOTA	IDF1	IDS	FP	FN	FPS	Link
+### Model	MOTA	IDF1	IDS	FP	FN	FPS	Link
 
 JDE-1088x608	74.8	67.3	1189	5558	21505	22.2	[Google](https://drive.google.com/open?id=1nlnuYfGNuHWZztQHXwVZSL_FvfE551pA)
 
