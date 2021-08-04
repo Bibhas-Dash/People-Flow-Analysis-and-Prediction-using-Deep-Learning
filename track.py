@@ -112,17 +112,17 @@ def eval_seq(opt, dataloader, data_type, result_filename, save_dir=None, show_im
         if save_dir is not None:
             cv2.imwrite(os.path.join(save_dir, '{:05d}.jpg'.format(frame_id)), online_im)
         frame_id += 1
-        l=len(online_ids)
+        l=len(online_ids)#bd{
         count_up=count-l
         count=l
         if count_up<0:
           out_flw.append(abs(count_up))
         else:
-          in_flw.append(count_up)
+          in_flw.append(count_up)}
     # save results
     
     write_results(result_filename, results, data_type)
-    return frame_id, timer.average_time, timer.calls,out_flw,in_flw,l
+    return frame_id, timer.average_time, timer.calls,out_flw,in_flw,l #bd
 
 
 def main(opt, data_root='/data/MOT16/train', det_root=None, seqs=('MOT16-05',), exp_name='demo', 
